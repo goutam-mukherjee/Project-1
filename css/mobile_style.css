@@ -1,0 +1,44 @@
+
+
+#home {
+    padding: 0px 5px;
+    font-size: 18px;
+}
+#home h1 {
+    font-size: 20px;
+}
+#home p {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+#list-items ul li a {
+    padding: 5px 5px;
+}
+#list-items ul li {
+    font-size: 18px;
+}
+
+#home input {
+    font-size: 15px;
+}
+#top-sells h1 {
+    font-size: 21px;
+}
+.box h2 {
+    font-size: 20px;
+}
+.box h3 {
+    font-size: 18px;
+}
+.h1 {
+    font-size: 21px;
+}
+footer{
+    font-size: 15px;
+}
+#contact form input {
+    font-size: 18px;
+}
+#contact form textarea {
+    font-size: 18px;
+}

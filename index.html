@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="icon" type="image/jpg" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 850px)" href="css/ipad_style.css">
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="css/mobile_style.css">    
+    <link rel="stylesheet" media="screen and (max-width: 330px)" href="css/iphone5_style.css">    
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo-container">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <div id="list-items">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#top-sells">Top Sells</a></li>
+                    <li><a href="#clients">Our Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Online Food Ordering System</h1>
+        <p>Here your food dreams come true</p>
+        <p>You can find best of the best recipes all over the world at the cheapest price</p>
+        <p><pre id="non_mobile">Italian    |     American      |     Indian    |     Chinese   |     Others</pre></p>
+        <p><pre id="mobile">Italian | American | Indian | Chinese | Others</pre></p>
+        <div>
+            <input type="button" value="Order Now">
+            <input type="button" value="Deal Of The Day">
+        </div>
+    </section>
+    <section id="top-sells">
+        <h1>Our Best Selling Items</h1>
+        <section id="box-container">
+            <div class="box">
+                <img src="img/tile1.jpg" alt="" id="tile1">
+                <h2>Linguine Con Vongole</h2>
+                <h3>$19.99</h3>
+            </div>
+            <div class="box">
+                <img src="img/tile2.jpg" alt="" id="tile2">
+                <h2>The Lola Burger</h2>
+                <h3>$21.49</h3>
+            </div>
+            <div class="box">
+                <img src="img/tile3.jpg" alt="" id="tile3">
+                <h2>Boeuf bourguignon</h2>
+                <h3>$24.59</h3>
+            </div>
+            <div class="box">
+                <img src="img/tile4.jpg" alt="" id="tile4">
+                <h2>Chicken Biriyani</h2>
+                <h3>$8</h3>
+            </div>
+            <div class="box">
+                <img src="img/tile5.jpg" alt="" id="tile5">
+                <h2>Buffalo Chicken Pizza</h2>
+                <h3>$14.58</h3>
+            </div>
+            <div class="box">
+                <img src="img/tile6.jpg" alt="" id="tile6">
+                <h2>Fudge Ice-Cream</h2>
+                <h3>$8.55</h3>
+            </div>
+            <div class="box">
+                <img src="img/tile7.jpg" alt="" id="tile7">
+                <h2>Pho</h2>
+                <h3>$5.79</h3>
+            </div>
+            <div class="box">
+                <img src="img/tile8.jpg" alt="" id="tile8">
+                <h2>Sushi</h2>
+                <h3>$11.99</h3>
+            </div>
+        </section>
+    </section>
+    <section id="clients">
+        <h1 class="h1">Our Clients</h1>
+        <section id="clients-tiles">
+            <img src="img/client1.jpg" alt="">
+            <img src="img/client2.jpg" alt="">
+            <img src="img/client3.jpg" alt="">
+            <img src="img/client4.jpg" alt="">
+            <img src="img/client5.jpg" alt="">
+        </section>
+    </section>
+    <section id="contact">
+        <h1 class="h1">Contact Us</h1>
+        <form action="#">
+            <input type="text" placeholder="Enter Your Name">
+            <input type="email" placeholder="Enter Your Email">
+            <textarea cols="30" rows="10"  placeholder="Enter Your Message Here"></textarea>
+            <input type="button" id="contact-submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        &copy; 2020 www.food-delivery.com. All rights reserved!
+    </footer>
+</body>
+
+</html>

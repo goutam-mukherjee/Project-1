@@ -1,0 +1,76 @@
+#navbar {
+    flex-direction: column;
+}
+header{
+    padding-bottom: 20px;
+}
+#logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#home {
+    padding: 0px 20px;
+}
+#home::before {
+    height: 610px;
+}
+#contact form input {
+    width: 75%;
+}
+#contact form textarea {
+    width: 75%;
+}
+#contact form #contact-submit {
+    width: 55%;
+}
+#clients-tiles img {
+    height: 150px;
+    padding: 15px 30px;
+    opacity: 0.4;
+}
+
+#list-items ul li a {
+    padding: 10px 10px;
+    text-align: center;
+    color: rgb(246, 190, 190);
+}
+
+#clients-tiles img {
+    height: 100px;
+}
+
+.box img {
+    width: 300px;
+}
+
+
+
+#home {
+    padding: 0px 5px;
+    font-size: 19px;
+}
+#home h1 {
+    font-size: 25px;
+}
+#home p {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+#list-items ul li a {
+    padding: 5px 11px;
+
+}
+#list-items ul li {
+    font-size: 20px;
+}
+
+#top-sells h1, .h1 {
+    font-size: 25px;
+}
+h2, .box h3 {
+    font-size: 20px;
+}
+#contact form input, #contact form textarea, footer {
+    font-size: 16px;
+}

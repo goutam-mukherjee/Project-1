@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu';    
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(245 245 245);    
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;    
+}
+
+header::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar {
+    display: flex;
+}
+#logo-container {
+    margin: 4px 10px;
+    top: 3px;
+    position: relative;
+}
+
+#logo-container img {
+    height: 57px;
+    filter: invert(100%);
+}
+
+#list-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#list-items ul{
+    display: flex;
+}
+#list-items ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+#list-items ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+}
+#list-items ul li a:hover{
+    color: black;
+    background-color: white;
+    opacity: 0.9;
+}
+#list-items ul li a:active{
+    background-color: rgb(248, 244, 221);
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 250px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 21px;
+    height: 453px;
+    text-align: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(../img/bg1.jpg) no-repeat center center/cover;
+    height: 550px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;  
+    opacity: 0.89;
+}
+#home h1 {
+    margin: 18px;
+}
+#home p {
+    margin: 10px;
+}
+@media (min-width: 575px){
+    #mobile {
+        display: none;
+    }
+}
+@media (max-width: 575px){
+    #non_mobile {
+        display: none;
+    }
+    pre {
+        white-space: pre-wrap;
+        text-align: center;
+    }
+}
+#home input {
+    margin: 8px;;
+    padding: 13px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+}
+#home input:hover {
+    opacity: 0.8;
+}
+#home input:active {
+    background-color: rgb(192, 192, 192);
+}
+#top-sells {
+    display: flex;
+    margin: 50px 20px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#top-sells h1 {
+    font-size: 31px;
+}
+#box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px;
+    margin-bottom: 28px;
+}
+
+.box {
+    margin: 15px;
+    border: 1px solid gold;
+    padding: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+.box img {
+    width: 335px;
+    height: 235px;
+}
+.box h2{
+    padding: 8px;
+    font-weight: initial;
+}
+.box h3{
+    padding: 2px 5px;
+    font-size: 25px;
+    color: rgb(100, 14, 14);
+}   
+#clients {
+    margin: 5px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+#clients-tiles {
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#clients-tiles img {
+    height: 150px;
+    padding: 15px 100px;
+    opacity: 0.4;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#contact h1{
+    padding-bottom: 20px;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#contact form input {
+    font-weight: 50;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    outline: none;
+    width: 40%;
+    margin: 15px 0px;
+}
+#contact form input:focus {
+    border: 3px solid rgb(53, 215, 243);
+}
+#contact form textarea:focus {
+    border: 3px solid rgb(53, 215, 243);
+}
+#contact form textarea {
+    font-weight: 50;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    outline: none;
+    width: 50%;
+    margin: 15px 0px;
+    border: 2px solid black;
+    margin: 0px;
+    height: 216px;
+}
+#contact form #contact-submit {
+    width: 10%;
+    cursor: pointer;
+}
+#contact-submit:hover {
+    opacity: 0.7;
+    font-weight: bold;
+    background-color: rgb(129, 238, 129);
+}
+#contact-submit:active {
+    background-color: rgb(231, 231, 255);
+}   
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
